@@ -1,4 +1,5 @@
-import { Flex } from "@chakra-ui/react"
+import { AbsoluteCenter, Box, Center, Flex, Grid, VStack } from "@chakra-ui/react"
+import { Articles } from "./Articles"
 import { Main } from './Main'
 
 export const Home = () => {
@@ -18,15 +19,22 @@ export const Home = () => {
           'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1) 1px), radial-gradient(circle, white 5%, wheat 25%, rgba(196,43,255,1), rgba(70,44,241,1))',
       }}
     >
-
       <Flex
         h='100vh'
         bgColor='#fff5'
+        alignSelf={'center'}
       >
-        <Main />
-
+        <VStack
+        >
+          <Main />
+          <Center>
+            <Box maxW='550px'>
+              <Articles />
+            </Box>
+          </Center>
+        </VStack>
       </Flex>
-    </Flex>
+    </Flex >
   )
 }
 
