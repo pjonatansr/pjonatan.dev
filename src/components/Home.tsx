@@ -9,7 +9,8 @@ export const Home = () => {
       h='100vh'
       alignItems="center"
       flexDirection="column"
-      pb="10px"
+      pb="5px"
+      pt="5px"
       style={{
         backgroundColor: '#e5e5f7',
         opacity: '0.8',
