@@ -39,7 +39,7 @@ export const Articles = () => {
               >
                 Neste artigo
               </Link>
-              falo sobre o fenômeno do &quot; cc @sseraphini&quot;, que vem contribuindo para o aprendizado em público da chamada &quot;bolha dev&quot; no twitter.
+              falo sobre o fenômeno do &quot;cc @sseraphini&quot;, que vem contribuindo para o aprendizado em público da chamada &quot;bolha dev&quot; no twitter.
             </Text>
 
           </AccordionPanel>
