@@ -1,7 +1,7 @@
 import { Image, Flex, Stack, Heading, border } from "@chakra-ui/react";
 import { SocialButtons } from './SocialButtons';
 
-export function Main() {
+export const Main = () => {
   return (
     <Flex
       alignItems="center"
@@ -13,7 +13,12 @@ export function Main() {
         align='center'
         p='4'
       >
-        <Heading as='h1' size='3xl' isTruncated>
+        <Heading
+          size='3xl'
+          style={{
+            "textShadow": "0 0 2px #fff, 0 0 3px #fff5, 0 0 4px #fff5, 0 0 5px #fff5, 0 0 6px #fff5, 0 0 7px #fff5, 0 0 8px #fff5;"
+          }}
+        >
           Pablo Jonatan
         </Heading>
         <Flex
@@ -27,6 +32,12 @@ export function Main() {
           }}
         >
           <Image
+            style={{
+              transition: 'all 0.5s ease-in-out 0s'
+            }}
+            _hover={{
+              transform: 'rotateY(180deg)'
+            }}
             boxSize="250px"
             border={'1px solid #8085'}
             objectFit="cover"
