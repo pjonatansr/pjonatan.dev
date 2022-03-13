@@ -4,12 +4,9 @@ export const Articles = () => {
   return (
     <VStack
       bgColor={'#fff8'}
-
+      alignItems={'left'}
     >
-      <Heading
-      >
-        Articles:
-      </Heading>
+
       <Accordion
         defaultIndex={[0]}
         allowToggle
@@ -23,7 +20,7 @@ export const Articles = () => {
                 <Text
                   fontWeight={'bold'}
                 >
-                  🇧🇷 Como a comunidade brasileira utiliza o twitter para aprender em público
+                  🇧🇷&nbsp;&nbsp;~ Como a comunidade brasileira utiliza o twitter para aprender em público
                 </Text>
               </Box>
               <AccordionIcon />
@@ -35,11 +32,19 @@ export const Articles = () => {
                 fontWeight={'bold'}
                 color='blue.500'
                 pr={'1'}
+                isExternal
                 href="https://dev.to/pjonatansr/como-a-comunidade-brasileira-utiliza-o-twitter-para-aprender-em-publico-345b"
               >
                 Neste artigo
               </Link>
-              falo sobre o fenômeno do &quot;cc @sseraphini&quot;, que vem contribuindo para o aprendizado em público da chamada &quot;bolha dev&quot; no twitter.
+              falo sobre o &quot;cc @sseraphini&quot;, que vem contribuindo para o aprendizado em público da {''}
+              <Link
+                color='blue.500'
+                isExternal
+                href={'https://twitter.com/search?q=%23bolhadev&src=typed_query'}
+              >
+                #bolhadev
+              </Link> no twitter.
             </Text>
 
           </AccordionPanel>
