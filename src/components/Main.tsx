@@ -19,7 +19,7 @@ export const Main = () => {
           fontFamily={'heading'}
           size={'2xl'}
           style={{
-            "textShadow": "0 0 2px #fff, 0 0 3px #fff5, 0 0 4px #fff5, 0 0 5px #fff5, 0 0 6px #fff5, 0 0 7px #fff5, 0 0 8px #fff5"
+            "textShadow": "0 0 2px #8085, 0 0 3px #8085, 0 0 4px #8085, 0 0 5px #8085, 0 0 6px #8085, 0 0 7px #8085, 0 0 8px #8085"
           }}
         >
           Pablo Jonatan
