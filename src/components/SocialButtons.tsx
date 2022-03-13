@@ -12,10 +12,10 @@ export const SocialButtons = () => {
         <StackDivider borderColor='blackAlpha.500' />
       }
     >
-      <ButtonGroup spacing='1' variant='outline'>
+      <ButtonGroup>
         <SocialIcon url="mailto:this.pablo@gmail.com" />
       </ButtonGroup>
-      <ButtonGroup spacing='1' variant='ghost'>
+      <ButtonGroup>
         <SocialIcon url="https://www.linkedin.com/in/pjrocha/?locale=en_US" />
         <SocialIcon url="https://github.com/pjonatansr" />
         <SocialIcon url="https://twitter.com/pjonatansr" />
