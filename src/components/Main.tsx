@@ -1,5 +1,7 @@
-import { Image, Flex, Stack, Heading, border } from "@chakra-ui/react";
+import { Image, Flex, Stack, Heading, border, background, Box } from "@chakra-ui/react";
 import { SocialButtons } from './SocialButtons';
+import "@fontsource/rampart-one/400.css"
+import "@fontsource/vt323"
 
 export const Main = () => {
   return (
@@ -11,24 +13,24 @@ export const Main = () => {
       <Stack
         spacing={2}
         align='center'
-        p='4'
+        pt='4'
       >
         <Heading
-          size='3xl'
+          fontFamily={'heading'}
+          size={'2xl'}
           style={{
-            "textShadow": "0 0 2px #fff, 0 0 3px #fff5, 0 0 4px #fff5, 0 0 5px #fff5, 0 0 6px #fff5, 0 0 7px #fff5, 0 0 8px #fff5;"
+            "textShadow": "0 0 2px #fff, 0 0 3px #fff5, 0 0 4px #fff5, 0 0 5px #fff5, 0 0 6px #fff5, 0 0 7px #fff5, 0 0 8px #fff5"
           }}
         >
           Pablo Jonatan
         </Heading>
-        <Flex
+        <Box
           style={{
-            backgroundImage:
-              'radial-gradient(circle, #f5deb355, #8085), linear-gradient(to bottom, #8085, #f5deb355)',
-            backgroundSize: '1px',
-            backgroundColor: '#e5e5f7',
-            borderRadius: '50%',
-            border: '1px solid #8085'
+            borderRadius: '100%',
+            border: '2px solid #0005',
+            backgroundImage: "url('https://data.whicdn.com/images/336000881/original.gif')",
+            backgroundSize: '800px',
+            backgroundRepeat: 'repeat'
           }}
         >
           <Image
@@ -39,16 +41,15 @@ export const Main = () => {
               transform: 'rotateY(180deg)'
             }}
             boxSize="250px"
-            border={'1px solid #8085'}
+            border={'1px solid #0005'}
             objectFit="cover"
             src="https://unavatar.io/twitter/pjonatansr"
             alt="Avatar Pablo Jonatan"
             borderRadius="full"
-
             m="4"
           />
-        </Flex>
-        <Heading as='h2' size='xl'>
+        </Box>
+        <Heading size='xl' fontFamily={'heading2'}>
           Software Engineer
         </Heading>
         <SocialButtons />
