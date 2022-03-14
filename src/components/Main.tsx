@@ -52,6 +52,7 @@ export const Main = () => {
             transition: 'all 0.1s ease 0s',
           }}
           _hover={{
+            cursor: 'no-drop'
           }}
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
