@@ -49,10 +49,10 @@ export const Main = () => {
             backgroundImage: "url('https://data.whicdn.com/images/336000881/original.gif')",
             backgroundSize: '800px',
             backgroundRepeat: 'repeat',
-            transition: 'all 0.1s ease 0s'
+            transition: 'all 0.1s ease 0s',
           }}
           _hover={{
-            transform: 'rotateY(360deg)'
+            transform: 'rotateY(180deg)'
           }}
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
@@ -69,6 +69,7 @@ export const Main = () => {
                   boxSize="250px"
                   sx={{
                     opacity: 0.8,
+                    transform: 'rotateY(180deg)'
                   }}
                 >
                   <Center>
