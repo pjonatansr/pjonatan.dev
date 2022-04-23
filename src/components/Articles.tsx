@@ -4,7 +4,7 @@ export const Articles = () => {
   return (
     <VStack
       mt={'2'}
-      bgColor="#fff5"
+      bgColor="#fff8"
       borderRadius={'md'}
       boxShadow="0px 0px 5px 5px rgba(0,0,0,0.1)"
       alignItems={'left'}

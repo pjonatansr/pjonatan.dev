@@ -26,7 +26,7 @@ export const Main = () => {
     <Flex
       boxShadow="0px 0px 5px 5px rgba(0,0,0,0.1)"
       borderRadius={'md'}
-      bgColor={'#fff6'}
+      bgColor={'#fff8'}
       flexDirection="column"
     >
       <Stack
