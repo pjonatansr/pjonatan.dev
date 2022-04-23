@@ -23,33 +23,26 @@ export const Home = () => {
     : `${change} infinite 15s alternate-reverse`
   return (
     <Container
-      maxW={'100%'}
+      minH={"100vh"}
+      minW={'100vw'}
       animation={animation}
-      opacity={'1'}
       backgroundImage={
         'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to left, wheat, rgba(196,43,255,50), rgba(70,44,241,50))'
       }
-      backgroundSize={ "400% 400%"}
+      backgroundSize={"400% 400%"}
+      p={'1rem'}
     >
-      <Flex
-        flex={1}
-        alignItems="center"
-        flexDirection="column"
+      <Box
+        boxShadow={'0px 0px 5px 5px rgba(0,0,0,0.1)'}
+        borderRadius={'0.5rem'}
+        p={'1rem'}
+        bgColor={'transparent'}
+        m={'auto'}
+        maxW='550px'
       >
-        <Flex
-          h='100vh'
-          bgColor='#ffffffDB'
-          alignSelf={'center'}
-        >
-          <VStack
-          >
-            <Main />
-            <Box maxW='550px'>
-              <Articles />
-            </Box>
-          </VStack>
-        </Flex>
-      </Flex >
+        <Main />
+        <Articles />
+      </Box>
     </Container >
   )
 }
