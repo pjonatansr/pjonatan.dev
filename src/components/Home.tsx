@@ -1,4 +1,4 @@
-import { usePrefersReducedMotion, AbsoluteCenter, Box, Center, Container, Flex, Grid, VStack, keyframes } from "@chakra-ui/react"
+import { usePrefersReducedMotion, Box, Container, keyframes } from "@chakra-ui/react"
 import { Articles } from "./Articles"
 import { Main } from './Main'
 import { SocialButtons } from "./SocialButtons";

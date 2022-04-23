@@ -1,4 +1,4 @@
-import { Link, Text, Accordion, AccordionItem, AccordionButton, Box, AccordionIcon, AccordionPanel, Heading, Flex, VStack } from "@chakra-ui/react";
+import { Link, Text, Accordion, AccordionItem, AccordionButton, Box, AccordionIcon, AccordionPanel, VStack } from "@chakra-ui/react";
 
 export const Articles = () => {
   return (

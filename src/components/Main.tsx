@@ -11,7 +11,6 @@ import {
   ListIcon,
   List
 } from "@chakra-ui/react";
-import { SocialButtons } from './SocialButtons';
 import { useState } from "react";
 import "@fontsource/rampart-one"
 import "@fontsource/vt323"
