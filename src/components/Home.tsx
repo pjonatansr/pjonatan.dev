@@ -1,6 +1,7 @@
 import { usePrefersReducedMotion, AbsoluteCenter, Box, Center, Container, Flex, Grid, VStack, keyframes } from "@chakra-ui/react"
 import { Articles } from "./Articles"
 import { Main } from './Main'
+import { SocialButtons } from "./SocialButtons";
 
 const change = keyframes`
 	0% {
@@ -33,14 +34,11 @@ export const Home = () => {
       p={'1rem'}
     >
       <Box
-        boxShadow={'0px 0px 5px 5px rgba(0,0,0,0.1)'}
-        borderRadius={'0.5rem'}
-        p={'1rem'}
-        bgColor={'transparent'}
-        m={'auto'}
         maxW='550px'
+        m={'auto'}
       >
         <Main />
+        <SocialButtons />
         <Articles />
       </Box>
     </Container >

@@ -3,7 +3,10 @@ import { Link, Text, Accordion, AccordionItem, AccordionButton, Box, AccordionIc
 export const Articles = () => {
   return (
     <VStack
-      bgColor={'#fff8'}
+      mt={'2'}
+      bgColor="#fff5"
+      borderRadius={'md'}
+      boxShadow="0px 0px 5px 5px rgba(0,0,0,0.1)"
       alignItems={'left'}
     >
 
@@ -13,6 +16,7 @@ export const Articles = () => {
 
       >
         <AccordionItem
+          border={'none'}
         >
           <h2>
             <AccordionButton>
@@ -50,6 +54,6 @@ export const Articles = () => {
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
-    </VStack>
+    </VStack >
   );
 }

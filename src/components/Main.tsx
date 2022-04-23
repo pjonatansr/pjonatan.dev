@@ -24,14 +24,15 @@ export const Main = () => {
   const onMouseLeave = () => setIsHovered(false);
   return (
     <Flex
-      alignItems="center"
+      boxShadow="0px 0px 5px 5px rgba(0,0,0,0.1)"
+      borderRadius={'md'}
+      bgColor={'#fff6'}
       flexDirection="column"
-      px={'12px'}
     >
       <Stack
         spacing={2}
-        align='center'
-        pt='4'
+        align={'center'}
+        pt={'4'}
       >
         <Heading
           fontFamily={'heading'}
@@ -127,8 +128,8 @@ export const Main = () => {
         >
           Software Engineer
         </Heading>
-        <SocialButtons />
       </Stack >
+
     </Flex >
   );
 }
