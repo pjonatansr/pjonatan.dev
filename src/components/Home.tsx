@@ -25,12 +25,11 @@ export const Home = () => {
     <Container
       maxW={'100%'}
       animation={animation}
-      sx={{
-        opacity: '1',
-        backgroundImage:
-          'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to left, wheat, rgba(196,43,255,50), rgba(70,44,241,50))',
-        backgroundSize: "400% 400%",
-      }}
+      opacity={'1'}
+      backgroundImage={
+        'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to left, wheat, rgba(196,43,255,50), rgba(70,44,241,50))'
+      }
+      backgroundSize={ "400% 400%"}
     >
       <Flex
         flex={1}

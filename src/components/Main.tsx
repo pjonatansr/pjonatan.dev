@@ -36,21 +36,17 @@ export const Main = () => {
         <Heading
           fontFamily={'heading'}
           size={'2xl'}
-          style={{
-            "textShadow": "0 0 2px #8085, 0 0 3px #8085, 0 0 4px #8085, 0 0 5px #8085, 0 0 6px #8085, 0 0 7px #8085, 0 0 8px #8085"
-          }}
+          textShadow={"0 0 2px #8085, 0 0 3px #8085, 0 0 4px #8085, 0 0 5px #8085, 0 0 6px #8085, 0 0 7px #8085, 0 0 8px #8085"}
         >
           Pablo Jonatan
         </Heading>
         <Box
-          style={{
-            borderRadius: '100%',
-            border: '2px solid #0005',
-            backgroundImage: "url('https://data.whicdn.com/images/336000881/original.gif')",
-            backgroundSize: '800px',
-            backgroundRepeat: 'repeat',
-            transition: 'all 0.1s ease 0s',
-          }}
+          borderRadius={'100%'}
+          border={'2px solid #0005'}
+          backgroundImage={"url('https://data.whicdn.com/images/336000881/original.gif')"}
+          backgroundSize={'800px'}
+          backgroundRepeat={'repeat'}
+          transition={'all 0.1s ease 0s'}
           _hover={{
             cursor: 'no-drop'
           }}
@@ -67,13 +63,19 @@ export const Main = () => {
                   m="4"
                   objectFit="cover"
                   boxSize="250px"
-                  sx={{
-                    opacity: 0.8,
-                  }}
+                  opacity={'0.8'}
                 >
                   <Center>
                     <VStack>
-                      <Text mt='5' mb={-5} fontWeight={'bold'} fontFamily={'cursive'} fontSize="5xl">About me</Text>
+                      <Text
+                        mt='5'
+                        mb={-5}
+                        fontWeight={'bold'}
+                        fontFamily={'cursive'}
+                        fontSize="5xl"
+                      >
+                        About me
+                      </Text>
                       <Center
                       >
                         <List
