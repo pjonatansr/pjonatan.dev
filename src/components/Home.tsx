@@ -28,7 +28,7 @@ export const Home = () => {
       minW={'100vw'}
       animation={animation}
       backgroundImage={
-        'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to left, wheat, rgba(196,43,255,50), rgba(70,44,241,50))'
+        'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to right, wheat, blue, blue, wheat)'
       }
       backgroundSize={"400% 400%"}
       p={'1rem'}
