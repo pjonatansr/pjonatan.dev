@@ -37,7 +37,8 @@ export const Main = () => {
         <Heading
           fontFamily={'heading'}
           size={'2xl'}
-          textShadow={"0 0 2px #8085, 0 0 3px #8085, 0 0 4px #8085, 0 0 5px #8085, 0 0 6px #8085, 0 0 7px #8085, 0 0 8px #8085"}
+          textShadow={"0 0 2px #8081, 0 0 3px #8081, 0 0 4px #8081, 0 0 5px #8081, 0 0 6px #8081, 0 0 7px #8081, 0 0 8px #8081"}
+
         >
           Pablo Jonatan
         </Heading>
