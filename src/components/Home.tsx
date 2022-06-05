@@ -25,7 +25,7 @@ export const Home = () => {
   return (
     <Container
       minH={"100vh"}
-      minW={'100vw'}
+      maxW={'100vw'}
       animation={animation}
       backgroundImage={
         'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to right, wheat, blue, blue, wheat)'
