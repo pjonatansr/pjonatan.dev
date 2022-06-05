@@ -22,10 +22,7 @@ export default class Document extends NextDocument {
             content="Pablo Jonatan, a software engineer from Brazil!"
           />
           <link rel="shortcut icon" href="/favicon.ico" />
-          <meta
-            name="viewport"
-            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
-          />
+          
           <meta name="application-name" content="Pablo Jonatan" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta

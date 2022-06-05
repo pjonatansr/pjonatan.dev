@@ -44,7 +44,7 @@ export const Main = () => {
         <Box
           borderRadius={'100%'}
           border={'2px solid #0005'}
-          backgroundImage={"url('https://data.whicdn.com/images/336000881/original.gif')"}
+          backgroundImage={"url('/stars.gif')"}
           backgroundSize={'800px'}
           backgroundRepeat={'repeat'}
           transition={'all 0.1s ease 0s'}
@@ -114,7 +114,7 @@ export const Main = () => {
                   boxSize="250px"
                   border={'1px solid #0005'}
                   objectFit="cover"
-                  src="https://unavatar.io/twitter/pjonatansr"
+                  src="/avatar.jpg"
                   alt="Avatar Pablo Jonatan"
                   borderRadius="full"
                   m="4"
