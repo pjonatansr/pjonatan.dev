@@ -15,7 +15,7 @@ export const About = () => {
       >
         <Box
           p={'0.5rem'}
-          w={['100%', '80%', '80%', '60%', '60%']}
+          w={['90%', '80%', '80%', '60%', '60%']}
         >
           <Heading
             textAlign={'center'}
