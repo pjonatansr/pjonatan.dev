@@ -12,9 +12,6 @@ import {
   List
 } from "@chakra-ui/react";
 import { useState } from "react";
-import "@fontsource/rampart-one"
-import "@fontsource/vt323"
-import "@fontsource/sacramento"
 import { ArrowRightIcon } from "@chakra-ui/icons";
 
 export const Main = () => {
