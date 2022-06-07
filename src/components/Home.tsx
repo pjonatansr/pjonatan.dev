@@ -9,9 +9,7 @@ export const Home = () => {
 
   return (
     <Container
-      minH={"92vh"}
       maxW={'100vw'}
-
       p={'1rem'}
     >
       <Box

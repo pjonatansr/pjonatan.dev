@@ -11,11 +11,11 @@ export const Nav = ({ current }: Props) => {
       display={'flex'}
       top={'0'}
       position="sticky"
-      bgColor={'#eaeaea75'}
+      bgColor={'#eaeaeaff'}
       borderBottom={'1px solid #ccc'}
       justifyContent={'center'}
       alignItems={'center'}
-      height={'8vh'}
+      height={'3rem'}
 
     >
       {

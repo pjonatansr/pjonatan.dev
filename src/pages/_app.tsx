@@ -32,6 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Box
+        minH={'100vh'}
         animation={animation}
         backgroundImage={
           'linear-gradient(to bottom, wheat, rgba(0,0,0,0.1)), linear-gradient(to right, wheat, blue, blue, wheat)'

@@ -5,8 +5,9 @@ import {
 export const About = () => {
   return (
     <Flex
-      minHeight={'92vh'}
       justifyContent={'center'}
+      p={'1rem'}
+      minHeight={'92vh'}
     >
       <Flex
         justifyContent={'center'}
@@ -23,7 +24,9 @@ export const About = () => {
             About me
           </Heading>
 
-          <Text>
+          <Text
+            pb={'1rem'}
+          >
             7+ years working on web applications, experienced in implementation, testing, deploy and maintenance of software systems and wide expertise about payment methods.
             Proficient in various platforms and languages. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Always looking for challenges that can bring some knowledge.
           </Text>
