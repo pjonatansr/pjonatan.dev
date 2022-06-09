@@ -7,7 +7,7 @@ export const About = () => {
     <Flex
       justifyContent={'center'}
       p={'1rem'}
-      minHeight={'92vh'}
+      minHeight={'90vh'}
     >
       <Flex
         justifyContent={'center'}
