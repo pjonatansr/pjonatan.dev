@@ -12,7 +12,7 @@ export const Nav = ({ current }: Props) => {
       top={0}
       zIndex={1}
       width={'100%'}
-      bgColor={'#eaeaeacf'}
+      bgColor={'#eaeaeaff'}
       borderBottom={'1px solid #ccc'}
       justifyContent={'center'}
       alignItems={'center'}
