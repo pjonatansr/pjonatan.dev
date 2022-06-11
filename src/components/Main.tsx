@@ -54,67 +54,25 @@ export const Main = () => {
           {
             isHovering
               ? (
-                <Box
-                  bgColor='white'
+
+                <Image
+                  boxSize="250px"
                   border={'1px solid #0005'}
+                  objectFit="cover"
                   borderRadius="full"
                   m="4"
-                  objectFit="cover"
-                  boxSize="250px"
-                  opacity={'0.8'}
-                >
-                  <Center>
-                    <VStack>
-                      <Text
-                        mt='5'
-                        mb={-5}
-                        fontWeight={'bold'}
-                        fontFamily={'cursive'}
-                        fontSize="5xl"
-                      >
-                        About me
-                      </Text>
-                      <Center
-                      >
-                        <List
-                        >
-                          <ListItem>
-                            <ListIcon as={
-                              ArrowRightIcon
-                            } color='green.500' />
-                            I&#39;m Learning Web3;
-                          </ListItem>
-                          <ListItem>
-                            <ListIcon as={
-                              ArrowRightIcon
-                            } color='green.500' />
-                            I worked with AngularJS;
-                          </ListItem>
-                          <ListItem>
-                            <ListIcon as={
-                              ArrowRightIcon
-                            } color='green.500' />
-                            JavaScript was my 1st lang;
-                          </ListItem>
-                          <ListItem>
-                            <ListIcon as={
-                              ArrowRightIcon
-                            } color='green.500' />
-                            I used to work with Groovy.</ListItem>
-                        </List >
-                      </Center>
-                    </VStack>
-                  </Center>
-                </Box>
+                  src={'/beach.jpg'}
+                  alt="cool"
+                />
               ) : (
                 <Image
                   boxSize="250px"
                   border={'1px solid #0005'}
                   objectFit="cover"
-                  src="/avatar.jpg"
-                  alt="Avatar Pablo Jonatan"
                   borderRadius="full"
                   m="4"
+                  src="/avatar.jpg"
+                  alt="Avatar Pablo Jonatan"
                 />
               )
           }
