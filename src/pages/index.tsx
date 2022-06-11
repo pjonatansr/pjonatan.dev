@@ -1,3 +1,4 @@
+import { Flex } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Home } from '../components/Home'
@@ -9,10 +10,15 @@ const HomePage: NextPage = () => {
       <Head>
         <title>Pablo Jonatan | Home</title>
       </Head>
-      <Nav
-        current={'Home'}
-      />
-      <Home />
+      <Flex
+        direction={'column'}
+      >
+
+        <Nav
+          current={'Home'}
+        />
+        <Home />
+      </Flex>
     </>
   )
 }
