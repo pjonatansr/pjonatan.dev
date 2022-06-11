@@ -1,4 +1,4 @@
-import { Box, Link } from '@chakra-ui/react'
+import { Box, Flex, Link } from '@chakra-ui/react'
 import React from 'react'
 
 interface Props {
@@ -7,15 +7,16 @@ interface Props {
 
 export const Nav = ({ current }: Props) => {
   return (
-    <Box
-      display={'flex'}
-      top={'0'}
-      position="sticky"
-      bgColor={'#eaeaeaff'}
+    <Flex
+      pos={'sticky'}
+      top={0}
+      zIndex={1}
+      width={'100%'}
+      bgColor={'#eaeaeacf'}
       borderBottom={'1px solid #ccc'}
       justifyContent={'center'}
       alignItems={'center'}
-      height={'3rem'}
+      height={'8vh'}
 
     >
       {
@@ -26,9 +27,9 @@ export const Nav = ({ current }: Props) => {
               <Box
                 key={index}
                 p={'1rem'}
-                fontWeight={'bold'}
+                fontWeight={'semibold'}
                 fontFamily={'heading2'}
-                fontSize={'2.5rem'}
+                fontSize={'3rem'}
                 color={'black'}
               >
 
@@ -40,6 +41,6 @@ export const Nav = ({ current }: Props) => {
           }, [])
       }
 
-    </Box>
+    </Flex>
   )
 }

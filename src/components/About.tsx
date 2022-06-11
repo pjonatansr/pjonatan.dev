@@ -5,43 +5,43 @@ import {
 export const About = () => {
   return (
     <Flex
-      justifyContent={'center'}
-      p={'1rem'}
+      pt={4}
       minHeight={'92vh'}
+      direction={'column'}
+      justifyContent={['flex-start', 'center']}
+      w={['90%', '90%', '60%', '60%', '60%']}
+      h={'fit-content'}
     >
       <Flex
-        justifyContent={'center'}
+        border={'1px solid #dcdcdcff'}
+        borderRadius={'md'}
+        boxShadow="0px 0px 5px 5px rgba(0,0,0,0.1)"
+        direction={'column'}
+        alignItems={'center'}
+        p={'1rem'}
         bgColor={'#eaeaeae5'}
       >
-        <Box
-          p={'0.5rem'}
-          w={['90%', '80%', '80%', '60%', '60%']}
+
+        <Heading
+          pb={'2rem'}
         >
-          <Heading
-            textAlign={'center'}
-            p={'1rem'}
-          >
-            About me
-          </Heading>
+          About me
+        </Heading>
 
-          <Text
-            pb={'1rem'}
-          >
-            7+ years working on web applications, experienced in implementation, testing, deploy and maintenance of software systems and wide expertise about payment methods.
-            Proficient in various platforms and languages. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Always looking for challenges that can bring some knowledge.
-          </Text>
-          <Flex
-            justifyContent={'center'}
-          >
-
-            <Image
-              alt="cool"
-              src={'/cool.gif'}
-            ></Image>
-          </Flex>
-        </Box>
+        <Text
+          pb={'2rem'}
+        >
+          7+ years working on web applications, experienced in implementation, testing, deploy and maintenance of software systems and wide expertise about payment methods.
+          Proficient in various platforms and languages. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Always looking for challenges that can bring some knowledge.
+        </Text>
+        <Image
+          alt="cool"
+          src={'/cool.gif'}
+          width={'50%'}
+        />
 
       </Flex>
     </Flex>
+
   )
 }
