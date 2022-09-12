@@ -82,7 +82,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
         fontFamily={'sans-serif'}
         textAlign={'center'}
       >
-        {hasErrors ? 'Failed to load pull requests' : ''}
+        {hasErrors ? '[F]ailed to load pull requests' : ''}
       </Heading>
       <Skeleton isLoaded={!hasErrors} minH={'50vh'}>
         <Table variant='striped'
@@ -100,7 +100,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
             fontFamily={'sans-serif'}
             color={'black'}
           >
-            Pull Requests at ccsseraphini repo
+            Pull Requests at ccsseraphini repo using GitHub Rest API
           </TableCaption>
           <Thead
           >
