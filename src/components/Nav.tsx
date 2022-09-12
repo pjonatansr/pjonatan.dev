@@ -11,7 +11,7 @@ export const Nav = ({ current }: Props) => {
       pos={'sticky'}
       top={0}
       zIndex={1}
-      width={'100%'}
+      w={'100vw'}
       bgColor={'#eaeaeaff'}
       borderBottom={'1px solid #ccc'}
       justifyContent={'center'}
@@ -20,7 +20,7 @@ export const Nav = ({ current }: Props) => {
 
     >
       {
-        ['Home', 'About'] //'Resume',
+        ['home', 'about', 'open-source'] //'Resume',
           .filter((page) => page !== current)
           .map((link, index) => {
             return (
@@ -34,7 +34,7 @@ export const Nav = ({ current }: Props) => {
               >
 
                 <Link
-                  href={`/${link.toLowerCase()}`}
+                  href={`/${link}`}
                 >{link}</Link>
               </Box>
             )

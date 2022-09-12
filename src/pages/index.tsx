@@ -15,7 +15,7 @@ const HomePage: NextPage = () => {
       >
 
         <Nav
-          current={'Home'}
+          current={'home'}
         />
         <Home />
       </Flex>
