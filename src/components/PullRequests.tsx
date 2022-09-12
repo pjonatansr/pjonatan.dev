@@ -75,6 +75,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
   return (
     <TableContainer
       h={'80vh'}
+      maxW={'90vw'}
       overflowY={'auto'}
     >
       <Heading
@@ -89,7 +90,6 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
           bgColor={'#eaeaeaff'}
           fontFamily={'sans-serif'}
         >
-
           <TableCaption
             placement={'top'}
             top={0}
@@ -100,9 +100,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
             fontFamily={'sans-serif'}
             color={'black'}
           >
-            {
-              'Pull Requests at ccsseraphini repo'
-            }
+            Pull Requests at ccsseraphini repo
           </TableCaption>
           <Thead
           >

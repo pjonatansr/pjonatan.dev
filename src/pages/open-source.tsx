@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Skeleton, Stack, Text, Tfoot, Th, Tr } from '@chakra-ui/react'
+import { Container, Flex } from '@chakra-ui/react'
 import { getHttpProtocol } from '../getHttpProtocol';
 import type { GetServerSideProps, NextPage } from 'next';
 import Head from 'next/head'
@@ -24,7 +24,6 @@ const OpenSourcePage: NextPage<Props> = ({ pullRequests, hasErrors }: Props) => 
         <Nav
           current={'open-source'}
         />
-
         <Flex
           h={'92vh'}
           w={'98vw'}
@@ -32,9 +31,7 @@ const OpenSourcePage: NextPage<Props> = ({ pullRequests, hasErrors }: Props) => 
           justifyContent={'center'}
           alignItems={'center'}
         >
-
           <PullRequests pullRequests={pullRequests as any} hasErrors={!!hasErrors} />
-
         </Flex>
 
       </Flex>
@@ -43,7 +40,6 @@ const OpenSourcePage: NextPage<Props> = ({ pullRequests, hasErrors }: Props) => 
 }
 
 export default OpenSourcePage
-
 
 export const getServerSideProps: GetServerSideProps<Props> = async (ctx) => {
   const { req } = ctx;
@@ -60,14 +56,10 @@ export const getServerSideProps: GetServerSideProps<Props> = async (ctx) => {
   }
 
   const pullRequests = await response.json();
-
   return {
     props: {
       pullRequests,
     },
   };
-
-
-
 }
 
