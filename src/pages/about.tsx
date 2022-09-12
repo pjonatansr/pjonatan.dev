@@ -15,7 +15,7 @@ const AboutPage: NextPage = () => {
         alignItems={'center'}
       >
         <Nav
-          current={'About'}
+          current={'about'}
         />
         <About />
 
