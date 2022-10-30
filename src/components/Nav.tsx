@@ -20,7 +20,7 @@ export const Nav = ({ current }: Props) => {
 
     >
       {
-        ['home', 'about', 'open-source'] //'Resume',
+        ['home', 'about']//, 'open-source']
           .filter((page) => page !== current)
           .map((link, index) => {
             return (
