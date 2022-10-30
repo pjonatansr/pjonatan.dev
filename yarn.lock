@@ -778,10 +778,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/rampart-one@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/rampart-one/-/rampart-one-4.5.6.tgz#85202c7ce20ed2e6b0c50e7c5168dae5521d618d"
-  integrity sha512-FDQT2kOkj4H+/fS/uGDmj9wv2gSnfiqm9mV+IvZCp4uiGQGGEZMnUKxOpyzlEc0J6uuqZ1BrycJaXrSJviEUpg==
+"@fontsource/rampart-one@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/rampart-one/-/rampart-one-4.5.13.tgz#89a7681a67f4cfc2110da33a78ecd8a80c63f0da"
+  integrity sha512-caoTfsQAAgRBqaqebf/X/ZCeTfZo7X75Mdg1jDqJNQAfFnYg9bnpalnDx4VLqlrO5zPTb9ePszMji7PmufFZQg==
 
 "@fontsource/sacramento@^4.5.9":
   version "4.5.9"
@@ -2914,10 +2914,10 @@ react-remove-scroll@2.4.1:
     use-callback-ref "^1.2.3"
     use-sidecar "^1.0.1"
 
-react-social-icons@^5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-5.11.0.tgz#98d1e76023a6422439f7ca2d6316f50cec4fec7b"
-  integrity sha512-hlgNMnWgkdRZZFPm8wjsRGQsSYdPC+uqxiJVpUF8Tc83OGiSQ7qtYN+rFwWubYGJ+JfwgpAg9ypx5duJfLZIfg==
+react-social-icons@^5.15.0:
+  version "5.15.0"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-5.15.0.tgz#6b815aab9eff210e1f6e8a4ca420684aa72c154a"
+  integrity sha512-khfDgUiUwEBe34T6br2+mkXQg3hLVDdviVjexxZoVCsogMgxTy/m8+KlX/j6Wa7P2BPxgZ7yZ2jXw3X06pUUFQ==
   dependencies:
     prop-types "^15.7.2"
 
