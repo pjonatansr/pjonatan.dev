@@ -13,7 +13,7 @@
     "@chakra-ui/react": "^1.8.6",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
-    "@fontsource/rampart-one": "^4.5.6",
+    "@fontsource/rampart-one": "^4.5.13",
     "@fontsource/sacramento": "^4.5.3",
     "@fontsource/vt323": "^4.5.10",
     "framer-motion": "^6",
