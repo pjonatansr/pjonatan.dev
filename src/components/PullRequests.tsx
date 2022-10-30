@@ -36,7 +36,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
     const { title, url, number, merged, created_at, closed_at, language
     } = pullRequest;
     const prUrl = url
-      .replaceAll(/api.|repos\/|(pull)s/g, "$1");
+      .replace(/api.|repos\/|(pull)s/g, "$1");
 
     prArray.push(
       <Tr
@@ -75,13 +75,14 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
   return (
     <TableContainer
       h={'80vh'}
+      maxW={'90vw'}
       overflowY={'auto'}
     >
       <Heading
         fontFamily={'sans-serif'}
         textAlign={'center'}
       >
-        {hasErrors ? 'Failed to load pull requests' : ''}
+        {hasErrors ? '[F]ailed to load pull requests' : ''}
       </Heading>
       <Skeleton isLoaded={!hasErrors} minH={'50vh'}>
         <Table variant='striped'
@@ -89,7 +90,6 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
           bgColor={'#eaeaeaff'}
           fontFamily={'sans-serif'}
         >
-
           <TableCaption
             placement={'top'}
             top={0}
@@ -100,9 +100,7 @@ export const PullRequests = ({ pullRequests = [], hasErrors }: { pullRequests: a
             fontFamily={'sans-serif'}
             color={'black'}
           >
-            {
-              'Pull Requests at ccsseraphini repo'
-            }
+            Pull Requests at ccsseraphini repo using GitHub Rest API
           </TableCaption>
           <Thead
           >
