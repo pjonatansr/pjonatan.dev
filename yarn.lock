@@ -788,10 +788,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/sacramento/-/sacramento-4.5.3.tgz#e79232c9a1c51b693efa0e80fa827cc2eec4ebdc"
   integrity sha512-3TX1tLXCxTsvpWdq2VpUioscyOY9u9MQEtz8GPjzT0n1xiwYtbnqnjTchDKF30rGDAC/3micMgo9G2WHujRa4A==
 
-"@fontsource/vt323@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/vt323/-/vt323-4.5.4.tgz#241e0bda3a19c519b7c9b12e904a82f2ab9ffcb8"
-  integrity sha512-W7DLi7av2fv0noY3IxtVGJxWh37aFj53qeojaoOvS3POJFDNFkzjY/Y2YrLYWvhuDMGYHzcJbhzZ1uhSgLUsSw==
+"@fontsource/vt323@^4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/vt323/-/vt323-4.5.10.tgz#133e5c7a1878e3d1fb46b5e8ce6a2f85c7f9fb38"
+  integrity sha512-INiL8rWWj/dKZ+oYXPQgdV0OYe6lD3+gsYbPrhHyiJYWlbACSUPbokNXKVrDqRqzXiLj5swKqf9TSJyC7gUGuQ==
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
