@@ -783,10 +783,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/rampart-one/-/rampart-one-4.5.6.tgz#85202c7ce20ed2e6b0c50e7c5168dae5521d618d"
   integrity sha512-FDQT2kOkj4H+/fS/uGDmj9wv2gSnfiqm9mV+IvZCp4uiGQGGEZMnUKxOpyzlEc0J6uuqZ1BrycJaXrSJviEUpg==
 
-"@fontsource/sacramento@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/sacramento/-/sacramento-4.5.3.tgz#e79232c9a1c51b693efa0e80fa827cc2eec4ebdc"
-  integrity sha512-3TX1tLXCxTsvpWdq2VpUioscyOY9u9MQEtz8GPjzT0n1xiwYtbnqnjTchDKF30rGDAC/3micMgo9G2WHujRa4A==
+"@fontsource/sacramento@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/sacramento/-/sacramento-4.5.9.tgz#8d573bbda68832196d6f4a16e6bc7b71a93a4809"
+  integrity sha512-S1PqihajYnRK3EG6SR/s2SGZbPNfSLQjUDhnJsSmz9NBjnIGUpLNsBXwa9PqrtAfyexs22JuGmgTup1mB2GMVg==
 
 "@fontsource/vt323@^4.5.10":
   version "4.5.10"
