@@ -15,7 +15,7 @@
     "@emotion/styled": "^11",
     "@fontsource/rampart-one": "^4.5.6",
     "@fontsource/sacramento": "^4.5.3",
-    "@fontsource/vt323": "^4.5.4",
+    "@fontsource/vt323": "^4.5.10",
     "framer-motion": "^6",
     "next": "12.1.0",
     "node-fetch": "^3.2.10",
