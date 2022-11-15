@@ -18,7 +18,7 @@
     "@fontsource/vt323": "^4.5.10",
     "framer-motion": "^6",
     "next": "12.1.0",
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^3.3.0",
     "octokit": "^2.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2",
