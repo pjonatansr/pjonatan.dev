@@ -25,7 +25,7 @@
     "react-social-icons": "^5.15.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.9",
+    "@types/node": "18.11.13",
     "@types/react": "17.0.40",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
