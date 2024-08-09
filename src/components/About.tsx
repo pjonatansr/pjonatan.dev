@@ -31,7 +31,7 @@ export const About = () => {
         <Text
           pb={'2rem'}
         >
-          7+ years working on web applications, experienced in implementation, testing, deploy and maintenance of software systems and wide expertise about payment methods.
+          Since 2015 working on web applications, experienced in implementation, testing, deploy and maintenance of software systems and wide expertise about payment methods.
           Proficient in various platforms and languages. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Always looking for challenges that can bring some knowledge.
         </Text>
         <Image
