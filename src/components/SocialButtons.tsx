@@ -23,6 +23,7 @@ export const SocialButtons = () => {
         <SocialIcon url="https://www.linkedin.com/in/pjrocha/?locale=en_US" />
         <SocialIcon url="https://github.com/pjonatansr" />
         <SocialIcon url="https://twitter.com/pjonatansr" />
+        <SocialIcon url="https://dev.to/pjonatansr" />
       </ButtonGroup>
     </HStack>
   </Flex>);
