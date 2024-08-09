@@ -20,7 +20,6 @@ export const Home = () => {
       >
         <Main />
         <SocialButtons />
-        <Articles />
       </Box>
     </Container >
   )
